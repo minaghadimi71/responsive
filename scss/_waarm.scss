@@ -1,0 +1,56 @@
+/*////////////#waarom//////////////*/
+#waarom{
+  background-color: #f7f8f8;
+
+    .waarom-content{
+      background: url("../img/Weg-met-eindpunt-met-overlay.jpg") center right fixed no-repeat;
+      background-size: cover;
+    }
+  .waarom-center{
+    height: 546px;
+    padding-top: 86px;
+  }
+  }
+/*////////////#waarom//////////////*/
+///992px
+@media (max-width: 1190px) {
+  #waarm{
+    .waarom-center{
+      height: 579px;
+      padding-top: 76px;
+    }
+  }
+}
+/*////////////#waarom//////////////*/
+///768px
+@media (max-width: 991px) {
+  #waarom{
+    .waarom-center{
+      height: 808px;
+      padding-top: 71px;
+      .img{
+        margin-bottom: 36px;
+      }
+    }
+  }
+}
+/*////////////#waarom//////////////*/
+///576px
+@media (max-width: 740px) {
+  #waarom{
+    .waarom-center{
+      height: 809px;
+      padding-top: 86px;
+    }
+  }
+}
+/*////////////#waarom//////////////*/
+///320px
+@media (max-width: 555px) {
+  #waarom{
+    .waarom-center{
+      height: 949px;
+      padding-top: 60px;
+    }
+  }
+}

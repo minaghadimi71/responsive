@@ -1,0 +1,334 @@
+/*////////////#wat//////////////*/
+#wat {
+  background-color: rgb(247, 248, 248);
+
+  .wat-content {
+    background: url("../img/parallax-voorbeeld2.jpg") center right fixed no-repeat;
+    background-size: cover;
+    height: 426px !important;
+  }
+
+  .wat-center {
+    height: 649px;
+
+    .center-title {
+      padding-top: 85px;
+    }
+
+    .boxes {
+      .wat-img img {
+        width: 454px !important;
+
+      }
+
+      .wat-p {
+        width: 444px !important;
+        height: auto;
+
+        p {
+          color: rgb(51, 51, 51);
+          font-size: 14px;
+        }
+      }
+    }
+  }
+
+  .wat-end {
+    background-color: rgb(165, 191, 186);
+    height: 274px;
+
+    hr {
+      color: rgb(221, 230, 228);
+      margin: 0;
+    }
+
+    .wat-end-content {
+      position: relative;
+      top: -216px;
+      text-align: center;
+
+      img {
+        border: 13px solid $white;
+        width: 690px;
+        height: 390px;
+        border-radius: 2px;
+
+      }
+    }
+  }
+
+  .wat-slide {
+    height: 778px;
+    padding-top: 71px;
+    #owl-1 {
+      .owl-dot {
+        display: none;
+      }
+      .left{
+        position: absolute;
+        color: $red;
+        top: 252px;
+        left: 0;
+        font-size: 50px;
+      }
+      .right{
+        position: absolute;
+        color: $red;
+        top: 252px;
+        right: 0;
+        font-size: 50px;
+      }
+      .item {
+        .item-p {
+          height: 414px;
+          button {
+            margin-top: 36px;
+            position: absolute;
+            padding: auto;
+            border: 2px solid #a5bfba;
+            color: #a5bfba;
+            background-color: #fff;
+            border-radius: 43px;
+            height: 52px;
+            width: 280px !important;
+          }
+        }
+      }
+    }
+  }
+}
+/*////////////#wat//////////////*/
+///992px
+@media (max-width: 1190px) {
+  #wat{
+    .wat-center{
+      .center-title {
+        padding-top: 78px;
+      }
+      .boxes {
+        .wat-img img {
+          width: 376px !important;
+
+        }
+
+        .wat-p {
+          width: 384px !important;
+
+        }
+      }
+    }
+    .wat-end {
+      height: 229px;
+      .wat-end-content {
+        top: -180px;
+        img {
+          width: 567px;
+          height: 318px;
+        }
+      }
+    }
+    .wat-slide {
+      height: 795px;
+      padding-top: 58px;
+      #owl-1 {
+        .right,.left{
+          top: 277px;
+        }
+        .item-p {
+          height: 437px;
+        }
+      }
+    }
+  }
+}
+/*////////////#wat//////////////*/
+///768px
+@media (max-width: 991px) {
+  #wat {
+    .wat-content {
+      height: 403px !important;
+    }
+
+    .wat-center {
+      height: 766px;
+
+      .center-title {
+        padding-top: 67px;
+      }
+
+      .boxes {
+        .wat-img{
+          margin-bottom: 35px;
+          img {
+          width: 614px !important;
+
+        }}
+
+        .wat-p {
+          width: 614px !important;
+        }
+      }
+    }
+
+    .wat-end {
+      height: 227px;
+      .wat-end-content {
+        top: -178px;
+        img {
+          width: 579px;
+          height: 327px;
+
+        }
+      }
+    }
+
+    .wat-slide {
+      height: 1199px;
+      padding-top: 50px;
+      #owl-1 {
+        .left{
+          top: 414px;
+        }
+        .right{
+          top: 414px;
+        }
+        .item {
+          .item-p {
+            button {
+              margin-top: 54px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+/*////////////#wat//////////////*/
+///576px
+@media (max-width: 740px) {
+  #wat {
+    .wat-content {
+      height: 418px !important;
+    }
+    .wat-center {
+      height: 708px;
+
+      .center-title {
+        padding-top: 60px;
+      }
+
+      .boxes {
+        .wat-img img {
+          width: 461px !important;
+
+        }
+
+        .wat-p {
+          width: 461px !important;
+
+        }
+      }
+    }
+
+    .wat-end {
+      height: 174px;
+
+      .wat-end-content {
+        top: -137px;
+
+        img {
+          border: 15px solid $white;
+          width: 432px;
+          height: 242px;
+
+        }
+      }
+    }
+
+    .wat-slide {
+      height: 1136px;
+      padding-top: 38px;
+      #owl-1 {
+        .left{
+          top: 404px;
+        }
+        .right{
+          top: 404px;
+        }
+        .item {
+          .item-p {
+            button {
+              margin-top: 53px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+/*////////////#wat//////////////*/
+///320px
+@media (max-width: 555px) {
+  #wat {
+    .wat-content {
+      height: 466px !important;
+    }
+
+    .wat-center {
+      height: 792px;
+
+      .boxes {
+        .wat-img img {
+          width: 257px !important;
+
+        }
+
+        .wat-p {
+          width: 257px !important;
+
+        }
+      }
+    }
+
+    .wat-end {
+      height: 110px;
+
+      .wat-end-content {
+        top: -86px;
+
+        img {
+          border: 13px solid $white;
+          width: 226px;
+          height: 128px;
+
+        }
+      }
+    }
+
+    .wat-slide {
+      height: 1278px;
+
+      #owl-1 {
+        .left {
+          top: 474px;
+        }
+
+        .right {
+          top: 474px;
+        }
+
+        .item {
+          .item-p {
+            height: 530px;
+            button {
+              height: 86px;
+              width: 176px !important;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+

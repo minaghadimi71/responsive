@@ -1,0 +1,298 @@
+/*////////////#contact//////////////*/
+#contact {
+  .person {
+    height: 694px;
+    background: url("../img/cvinspe-bg.jpg") top center scroll no-repeat;
+    background-size: cover;
+    padding-top: 79px;
+
+    h2 {
+      margin-bottom: 62px;
+    }
+
+    #owl-3 {
+      position: relative;
+      .owl-dot {
+        position: absolute;
+        top: 446px;
+      }
+      .left{
+        top: 219px;
+        position: absolute;
+        color: $red;
+        left: -111px;
+        font-size: 50px;
+      }
+      .right{
+        top: 219px;
+        position: absolute;
+        color: $red;
+        right: -111px;
+        font-size: 50px;
+
+      }
+
+      .item {
+        width: 283px !important;
+        text-align: center;
+        margin-right: auto;
+        margin-left: auto;
+        .person-img {
+          width: 203px;
+          height: 203px;
+          margin-bottom: 14px;
+          margin-right: auto;
+          margin-left: auto;
+        }
+        h3{
+          font-size: 20px;
+          margin-bottom: 14px;
+          color: #1a1919;
+        }
+        .person-p-1{
+          color: $green;
+          font-size: 15px;
+          margin-bottom: 22px;
+        }
+        .person-p-2 {
+          color: #1a1919;
+          font-size: 14px;
+          margin-bottom: 22px;
+        }
+          .social-media{
+            i{
+              color: rgba(0,0,0,0.7);
+              transition: 0.5s;
+              &:hover{
+                color: black;
+              }
+            }
+          }
+        }
+      }
+    }
+  .brand{
+    background-color: $white;
+    height: 374px;
+    padding-top: 79px;
+    h2{
+      margin-bottom: 82px;
+    }
+    #owl-4{
+      .owl-dot{
+        display: none;
+      }
+      .item{
+        text-align: center;
+        width: 132px;
+        margin-right: auto;
+        margin-left: auto;
+        .brand-img{
+          width: 132px;
+
+        }
+      }
+    }
+  }
+  }
+/*////////////#contact//////////////*/
+///992px
+@media (max-width: 1190px) {
+  #contact {
+    .person {
+      height: 655px;
+      padding-top: 65px;
+
+      h2 {
+        margin-bottom: 57px;
+      }
+
+      #owl-3 {
+        .owl-dot {
+          top: 456px;
+        }
+        .left{
+          left: -84.5px;
+
+        }
+        .right{
+          right: -84.5px;
+
+        }
+
+        .item {
+          width: 213px !important;
+        }
+      }
+    }
+    .brand{
+      height: 342px;
+      padding-top: 65px;
+      h2{
+        margin-bottom: 58px;
+      }
+      #owl-4{
+        .item{
+          width: 102px;
+          .brand-img{
+            width: 102px;
+
+          }
+        }
+      }
+    }
+  }
+}
+/*////////////#contact//////////////*/
+///768px
+@media (max-width: 991px) {
+  #contact {
+    .person {
+      height: 606px;
+      padding-top: 59px;
+
+      h2 {
+        margin-bottom: 54px;
+      }
+
+      #owl-3 {
+        .owl-dot {
+          top: 430px;
+        }
+        .left{
+          top: 210px;
+          left: -61px;
+        }
+        .right{
+          top: 210px;
+          right: -61px;
+
+        }
+
+        .item {
+          width: 616px !important;
+          .person-img {
+            margin-bottom: 14px;
+            margin-right: auto;
+            margin-left: auto;
+          }
+        }
+      }
+    }
+    .brand{
+      height: 324px;
+      padding-top: 57px;
+      h2{
+        margin-bottom: 79px;
+      }
+      #owl-4{
+        .item{
+          width: 122px;
+          .brand-img{
+            width: 122px;
+
+          }
+        }
+      }
+    }
+  }
+}
+/*////////////#contact//////////////*/
+///576px
+@media (max-width: 740px) {
+  #contact {
+    .person {
+      height: 554px;
+      padding-top: 44px;
+
+      h2 {
+        margin-bottom: 42px;
+      }
+
+      #owl-3 {
+        .owl-dot {
+          top: 408px;
+        }
+        .left{
+          top: 206px;
+          left: -42.5px;
+        }
+        .right{
+          top: 206px;
+          right: -42.5px;
+
+        }
+
+        .item {
+          width: 418px !important;
+          h3{
+            margin-bottom: 14px;
+          }
+        }
+      }
+    }
+    .brand{
+      height: 271px;
+      padding-top: 45px;
+      h2{
+        margin-bottom: 61px;
+      }
+      #owl-4{
+        .item{
+          width: 121px;
+          .brand-img{
+            width: 121px;
+
+          }
+        }
+      }
+    }
+  }
+
+}
+
+/*////////////#contact//////////////*/
+///320px
+@media (max-width: 555px) {
+  #contact {
+    .person {
+      height: 583px;
+
+      h2 {
+        margin-bottom: 39px;
+      }
+
+      #owl-3 {
+        .owl-dot {
+          top: 440px;
+        }
+        .left{
+          top: 223px;
+          left: -17px;
+        }
+        .right{
+          top: 223px;
+          right: -17px;
+
+        }
+
+        .item {
+          width: 222px !important;
+        }
+      }
+    }
+    .brand{
+      height: 281px;
+      #owl-4{
+        .item{
+          width: 138px;
+          .brand-img{
+            width: 138px;
+
+          }
+        }
+      }
+    }
+  }
+
+}

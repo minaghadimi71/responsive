@@ -1,0 +1,147 @@
+
+.bg-green{
+  background-color: $green;
+}
+.container-1{
+  width: 1129px;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+}
+.container-2{
+  width: 949px;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.btn:focus{
+  outline: none;
+  box-shadow: none;
+}
+.boxes{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+/////////////from here
+.center-title {
+  position: relative;
+  max-width: 549px;
+margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+  h3 {
+    font-size: 18px;
+    color: $green;
+    font-style: italic;
+    margin-bottom: 48px;
+  }
+}
+.img {
+  width: 468px;
+  border-radius: 2px;
+}
+.item-p{
+  width: 468px;
+  i {
+    font-size: 12px;
+    margin-right: 10px;
+    color: $red;
+  }
+  p {
+    font-size: 15px;
+  }
+}
+.center-title-1{
+  color: $green;
+  font-size: 2rem;
+  text-align: center;
+}
+///992px
+@media (max-width: 1190px) {
+  .container-1{
+    width: 934px;
+  }
+  .container-2{
+    width: 795px;
+  }
+  .center-title {
+    h3 {
+      margin-bottom: 44px;
+    }
+  }
+  .img {
+    width: 387px;
+  }
+  .item-p {
+    width: 387px;
+  }
+}
+///768
+@media (max-width: 991px) {
+  .container-1{
+    width: 616px;
+  }
+  .container-2{
+    width: 616px;
+  }
+  .boxes{
+    flex-direction: column;
+  }
+  .center-title {
+    position: relative;
+    max-width: 558px;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+    h3 {
+      margin-bottom: 45px;
+    }
+  }
+  .img {
+    width: 612px;
+  }
+  .item-p {
+    width: 612px;
+  }
+}
+//576
+@media (max-width: 740px) {
+  .container-1 {
+    width: 462px;
+  }
+  .container-2 {
+    width: 462px;
+  }
+  .center-title {
+    max-width: 442px;
+    h3 {
+      margin-bottom: 45px;
+    }
+  }
+  .img {
+    width: 462px;
+  }
+  .item-p {
+    width: 462px;
+  }
+}
+//320
+@media (max-width: 555px) {
+  .container-1 {
+    width: 257px;
+  }
+  .container-2 {
+    width: 257px;
+  }
+  .center-title {
+    max-width: 235px;
+  }
+  .img {
+    width: 257px;
+  }
+  .item-p {
+    width: 257px !important;
+  }
+}

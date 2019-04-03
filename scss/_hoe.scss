@@ -1,0 +1,208 @@
+/*////////////#hoe//////////////*/
+#hoe {
+  .hoe-content {
+    background: url("../img/twee-kanten-op-met-overlay.jpg") top center fixed no-repeat;
+    background-size: cover;
+  }
+
+  .hoe-center {
+    height: 577px;
+    padding-top: 88px;
+    background-color: $gray;
+  }
+
+  .hoe-end {
+    background: url("../img/cvinspe-bg.jpg") center right scroll no-repeat;
+    background-size: cover;
+    height: 676px;
+    padding-top: 78px;
+
+    h2 {
+      margin-bottom: 64px;
+    }
+
+    .hoe-box {
+      width: 302px;
+      height: auto;
+      background-color: $white;
+      border-radius: 2px;
+      padding: 37px 31px 72px;
+      color: $green;
+      font-size: 16px;
+      box-shadow: 2px 2px 18px grey;
+    }
+  }
+
+  .hoe-slide {
+    height: 943px;
+    padding-top: 72px;
+
+    #owl-2 {
+      .owl-dot {
+        display: none;
+      }
+
+      .left {
+        position: absolute;
+        color: $red;
+        top: 333px;
+        left: 0;
+        font-size: 50px;
+      }
+
+      .right {
+        position: absolute;
+        color: $red;
+        top: 333px;
+        right: 0;
+        font-size: 50px;
+      }
+    }
+  }
+}
+/*////////////#hoe//////////////*/
+///992px
+@media (max-width: 1190px) {
+  #hoe {
+    .hoe-center {
+      height: 585px;
+      padding-top: 80px;
+    }
+    .hoe-end {
+      height: 747px;
+      padding-top: 72px;
+      h2{
+        margin-bottom: 54px;
+      }
+      .hoe-box {
+        width: 252px;
+        padding:37px 27px 72px;
+      }
+    }
+    .hoe-slide{
+      height: 984px;
+      padding-top: 60px;
+      #owl-2{
+        .right,.left{
+          top: 372px;
+        }
+      }
+    }
+    }
+}
+/*////////////#hoe//////////////*/
+///768px
+@media (max-width: 991px) {
+  #hoe {
+    .hoe-center {
+      height: 858px;
+      padding-top: 70px;
+      .item-p{
+        margin-bottom: 53px;
+      }
+    }
+
+    .hoe-end {
+      height: 1071px;
+      padding-top: 59px;
+
+      h2 {
+        margin-bottom: 60px;
+      }
+
+      .hoe-box {
+        width: 616px;
+        margin-bottom: 30px;
+      }
+    }
+
+    .hoe-slide {
+      height: 997px;
+      padding-top: 51px;
+
+      #owl-2 {
+        .item-p{
+          margin-bottom: 34px;
+        }
+        .left {
+          top: 367px;
+        }
+
+        .right {
+          top: 367px;
+        }
+      }
+    }
+  }
+}
+/*////////////#hoe//////////////*/
+///576px
+@media (max-width: 740px) {
+  #hoe {
+    .hoe-center {
+      height: 814px;
+      padding-top: 63px;
+    }
+
+    .hoe-end {
+      height: 1074px;
+      padding-top: 43px;
+
+      h2 {
+        margin-bottom: 51px;
+      }
+
+      .hoe-box {
+        width: 462px;
+        padding: 39px 33px 75px;
+      }
+    }
+
+    .hoe-slide {
+      height: 966px;
+      padding-top: 39px;
+
+      #owl-2 {
+        .left {
+          top: 373px;
+        }
+
+        .right {
+          top: 373px;
+        }
+      }
+    }
+  }
+}
+/*////////////#hoe//////////////*/
+///320px
+@media (max-width: 555px) {
+  #hoe {
+    .hoe-center {
+      height: 890px;
+      padding-top: 62px;
+    }
+
+    .hoe-end {
+      height: 1682px;
+
+      .hoe-box {
+        width: 257px;
+      }
+    }
+
+    .hoe-slide {
+      height: 1348px;
+
+      #owl-2 {
+        .left {
+          top: 562px;
+        }
+
+        .right {
+          top: 562px;
+        }
+      }
+    }
+  }
+}

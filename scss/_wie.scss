@@ -1,0 +1,74 @@
+/*////////////#wie//////////////*/
+#wie {
+  background-color: $white;
+  .wie-content {
+    background: url("../img/parallax-voorbeeld2.jpg") top center fixed no-repeat;
+    background-size: cover;
+  }
+  .wie-center{
+    height: 216px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+     h3{
+      text-align: center;
+      font-size: 18px;
+      color: $green;
+      font-style: italic;
+    }
+    .container-4{
+      width: 637px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+  }
+}
+/*////////////#wie//////////////*/
+///992px
+@media (max-width: 1190px) {
+  #wie {
+    .wie-center {
+      height: 225px;
+
+      .container-4 {
+        width: 558px;
+      }
+    }
+  }
+}
+/*////////////#wie//////////////*/
+///768px
+@media (max-width: 991px) {
+  #wie {
+    .wie-center{
+      height: 206px;
+      .container-4{
+        width: 600px;
+      }
+    }
+  }
+}
+/*////////////#wie//////////////*/
+///576px
+@media (max-width: 740px) {
+  #wie {
+    .wie-center{
+      height: 169px;
+      .container-4{
+        width: 448px;
+      }
+    }
+  }
+}
+/*////////////#wie//////////////*/
+///320px
+@media (max-width: 555px) {
+  #wie {
+    .wie-center{
+      height: 260px;
+      .container-4{
+        width: 240px;
+      }
+    }
+  }
+}

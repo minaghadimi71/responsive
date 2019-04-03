@@ -1,0 +1,106 @@
+/*/////////.slide-1-2-/////////////////*/
+.slide{
+  background-color: $white;
+  /*/////////owl-button/////////////////*/
+  .owl-button {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 82px;
+    .btn {
+      width: 185px;
+      height: 49px;
+      padding: auto;
+      border: 2px solid $white;
+      transition: 0.5s;
+      color: black;
+      text-transform: capitalize;
+      font-size: 13px;
+      margin: 0 10px;
+      background-color: $white;
+      border-radius: 50px;
+      &:focus, &:hover, &:active {
+        outline: none !important;
+        border: 2px solid rgb(210, 18, 29) !important;
+        box-shadow: none !important;
+        background-color: $white ;
+        color: black !important;
+      }
+    }
+    .one.active, .two.active {
+      outline: none !important;
+      border: 2px solid rgb(210, 18, 29) !important;
+      box-shadow: none !important;
+      background-color: $white !important;
+      color: black !important;
+    }
+  }
+  /*/////////owl-button-end/////////////////*/
+  h5 {
+    font-size: 25px;
+    color: $green;
+    margin-bottom: 61px;
+  }
+}
+.container-3{
+  width: 1171px;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+}
+/*/////////.slide-1-2-/////////////////*/
+///992px
+@media (max-width: 1190px) {
+  .container-3 {
+    width: 964px;
+  }
+  .slide{
+    .owl-button {
+      margin-bottom: 68px;
+    }
+    h5{
+      margin-bottom: 54px;
+    }
+  }
+}
+/*/////////.slide-1-2-/////////////////*/
+///768
+@media (max-width: 991px) {
+  .owl-button {
+    flex-direction:column !important;
+    margin-bottom: 54px;
+    .btn {
+      width: 616px !important;
+      margin-bottom: 5px;
+    }
+  }
+  .container-3 {
+    width: 738px;
+  }
+}
+/*/////////.slide-1-2-/////////////////*/
+///576
+@media (max-width: 740px) {
+  .owl-button {
+    .btn {
+      width: 462px !important;
+    }
+  }
+  .container-3 {
+    width: 547px;
+  }
+
+}
+/*/////////.slide-1-2-/////////////////*/
+///320
+@media (max-width: 555px) {
+  .owl-button {
+    .btn {
+      width: 257px !important;
+    }
+  }
+  .container-3 {
+    width: 291px;
+  }
+
+}
